@@ -2,7 +2,20 @@ package exercise_2;
 
 public class Main {
     public static void main(String[] args) {
-        int [] a = {3,5,6,7,3,2,4};
+
+        char lowCase = 'a';
+        char highCase = 'A';
+        char lowLine = '_';
+
+        String enteredString = "Тest";
+//        char[] enteredStrArr = enteredString.toCharArray();
+
+
+
+        if (enteredString.charAt(0) == lowLine) { System.out.println("String is Identificator");}
+
+
 
     }
 }
+
