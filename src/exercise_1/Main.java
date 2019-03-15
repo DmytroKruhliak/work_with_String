@@ -7,7 +7,7 @@ public class Main {
         String enteredString = "Holla is a String with Spaces and UPPERCases";
         String replaceSpace = enteredString.replaceAll(" ", "");
         String[] splitedEnteredString = replaceSpace.split("");
-        int numbersOfWords = rnd(2, replaceSpace.length() / 5);
+        int numbersOfWords = rnd(2, replaceSpace.length() / 3);
         System.out.println(enteredString);
         for (int i = 0; i < numbersOfWords; i++) {
 
