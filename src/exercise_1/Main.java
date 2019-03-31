@@ -1,5 +1,10 @@
-package exercise_1;
+/*
+ Составить из букв введенной строки слова
+        Вводится строка, состоящая из букв и пробелов. Составить из входящих в нее букв несколько любых их сочетаний (слов)
+        любой длины. Каждую букву строки можно использовать неограниченное количество раз.
 
+*/
+package exercise_1;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +12,7 @@ public class Main {
         String enteredString = "Holla is a String with Spaces and UPPERCases";
         String replaceSpace = enteredString.replaceAll(" ", "");
         String[] splitedEnteredString = replaceSpace.split("");
-        int numbersOfWords = rnd(2, replaceSpace.length() / 3);
+        int numbersOfWords = rnd(2, replaceSpace.length() / 4);
         System.out.println(enteredString);
         for (int i = 0; i < numbersOfWords; i++) {
 

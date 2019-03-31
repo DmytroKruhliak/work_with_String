@@ -1,4 +1,11 @@
-package exercise_2;
+/*
+Является ли строка идентификатором
+        Определить, является ли введенное слово идентификатором, т.е. начинается ли оно с английской буквы
+        в любом регистре или знака подчеркивания и не содержит других символов, кроме букв английского алфавита
+        (в любом регистре), цифр и знака подчеркивания.
+*/
+
+        package exercise_2;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +13,7 @@ public class Main {
         String identifyArrayStep1 = "_qwertyuioplkjhgfdsamnbvcxzQWERTYUIOPASDFGHJKLZXCVBNM";
         String identifyArrayStep2 = "_qwertyuioplkjhgfdsamnbvcxzQWERTYUIOPASDFGHJKLZXCVBNM0123456789";
 
-        String enteredString = "0_090KJhkhdfjjdsdddf909090est";
+        String enteredString = "_090KJhkhdfjjdsdddf909090est";
 
         boolean totalVerification = false;
         boolean idVerificationStep1 = false;
