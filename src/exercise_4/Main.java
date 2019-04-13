@@ -7,14 +7,25 @@
 
 package exercise_4;
 //test0-34##4s№;%s fjlsdfjs 9+9-9 sdf33 d8 h4 s3
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scan1 = new Scanner(System.in);
+        System.out.println("Enter text:");
         String enteredString = scan1.nextLine();
-        System.out.println(Arrays.toString(getNumbers(enteredString)));
+        int[] result = getNumbers(enteredString);
+
+        System.out.println("Result is:");
+
+        for (int i = 0; i < result.length; i++) {
+            if (result[i] != 0) {
+                System.out.print(result[i] + " ");
+            }
+
+        }
     }
 
     private static int[] getNumbers(String string) {
